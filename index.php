@@ -1,3 +1,9 @@
-Hello World!!!
+<!DOCTYPE html>
+<html>
+<head>
+	<?php resuire_once('logic.php'); ?>
+</head>
 
-<h1>Testing One-Click Deploying</h1>
+<body>
+</body>
+</html>
