@@ -3,9 +3,9 @@
 date_default_timezone_set('America/Chicago');
 
 
-//$time = date('H');
+$time = date('H');
 
-$time = 10;
+//$time = 10;
 
 if ($time >= 07 && $time < 17) {
 	echo '<img src="images/day.jpg"';
