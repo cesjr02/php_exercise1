@@ -8,7 +8,11 @@
 
 <body>
 	<h1>PHP: Exercise-Day or Night</h1>
+
+	<img src='images/<?=$image?>'>
+
 	
-<!--	<p>Today is <?=$time?></p> --> 
+	<p>Today is: <?=$time_of_day?></p>
+	
 </body>
 </html>

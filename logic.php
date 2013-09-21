@@ -2,24 +2,24 @@
 
 date_default_timezone_set('America/Chicago');
 
+$time_of_day = date('g:ia');
 
 $time = date('H');
 
 //$time = 10;
 
 if ($time >= 07 && $time < 17) {
-	echo '<img src="images/day.jpg"';
+	$image = 'day.jpg';
 }
 elseif ($time >= 17 && $time < 21) {
-	echo '<img src="images/dusk-dawn.jpg"';
+	$image = 'dusk-dawn.jpg';
 }
 elseif ($time >= 05 && $time < 07) {
-	echo '<img src="images/dusk-dawn.jpg"';
+	$image = 'dusk-dawn.jpg';
 }
 else {
-	echo '<img src="images/night.jpg"';
+	$image = 'night.jpg';
 }
-
 
 
 ?>
